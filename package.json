@@ -1,0 +1,24 @@
+{
+  "name": "upbeat-lambda-utils",
+  "author": "Chris Spence (https://teachupbeat.com)",
+  "description": "Utility methods that support Upbeat Lambda implementations",
+  "version": "1.0.0",
+  "license": "MIT",
+  "peerDependencies": {
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeachUpbeat/upbeat-lambda-utils.git"
+  },
+  "scripts": {
+    "publish": "git add -A . && git commit -m 'prepublish npm package' && npm version patch && npm publish"
+  },
+  "keywords": [
+    "upbeat",
+    "teach upbeat",
+    "mysql",
+    "lambda",
+    "utilities"
+  ]
+}
